@@ -48,6 +48,7 @@ async function loadServices() {
   services.forEach(service => {
     const option = document.createElement('option');
     option.value = service.id;
+option.dataset.duration = service.duration_minutes;
     option.textContent = `${service.name} — ${service.price} €`;
     serviceSelect.appendChild(option);
   });
@@ -74,8 +75,8 @@ async function loadSlots() {
     .filter(slot => slot.available)
     .forEach(slot => {
       const option = document.createElement('option');
-      option.value = slot.slot_time;
-      option.textContent = slot.slot_time.slice(0, 5);
+      option.value = slot.start_time;
+      option.textContent = slot.start_time.slice(0, 5);
       timeSelect.appendChild(option);
     });
 }
