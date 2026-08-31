@@ -1,4 +1,4 @@
-const menu=document.querySelector(".menu");const nav=document.querySelector(".nav");menu?.addEventListener("click",()=>nav.classList.toggle("open"));
+const SUPABASE_URL = 'https://fkixaznydcytzsckoiqr.supabase.co';const SUPABASE_KEY = 'sb_publishable_6TOqOa0_yca97s62uAfnPg_xA4O4OIV';const menu=document.querySelector(".menu");const nav=document.querySelector(".nav");menu?.addEventListener("click",()=>nav.classList.toggle("open"));
 document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
 const form=document.getElementById('bookingForm');
 form.addEventListener('submit',e=>{
