@@ -25,7 +25,7 @@ async function getAvailableSlots(date, serviceId) {
       headers,
       body: JSON.stringify({
         p_date: date,
-        p_service: serviceId
+        p_service_id: serviceId
       })
     }
   );
