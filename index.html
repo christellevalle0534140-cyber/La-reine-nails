@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171112">
+<title>L'ART au bout de vos ONGLES — Rendez-vous</title>
+<meta name="description" content="Prothésiste ongulaire à Mèze. Pose chablons, semi-permanent, pédicure et nail art. Rendez-vous à domicile.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#accueil"><span>L'ART</span> au bout de vos ONGLES</a>
+  <button class="menu" aria-label="Ouvrir le menu">☰</button>
+  <nav>
+    <a href="#prestations">Prestations</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#offres">Offres</a>
+    <a href="#rendezvous">Rendez-vous</a>
+  </nav>
+</header>
+
+<main>
+<section id="accueil" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">PROTHÉSISTE ONGULAIRE · MÈZE</p>
+    <h1>L'art au bout<br><em>de vos ongles</em></h1>
+    <p class="lead">Des ongles qui vous ressemblent. Une parenthèse beauté pensée pour vous, directement à votre domicile.</p>
+    <div class="actions">
+      <a class="btn primary" href="#rendezvous">Prendre rendez-vous</a>
+      <a class="btn ghost" href="tel:+33784600252">07 84 60 02 52</a>
+    </div>
+    <div class="trust"><span>♡</span> Confiance · Douceur · Passion · Perfection</div>
+  </div>
+  <div class="hero-card">
+    <div class="seal">♡</div>
+    <p>Votre beauté,<br><strong>jusqu'au bout<br>des ongles.</strong></p>
+    <small>JE ME DÉPLACE À VOTRE DOMICILE</small>
+  </div>
+</section>
+
+<section id="prestations" class="section">
+  <div class="section-head"><p class="eyebrow">PRESTATIONS</p><h2>Une manucure qui vous ressemble</h2></div>
+  <div class="cards">
+    <article><div class="icon">✧</div><h3>Pose complète</h3><p>Gel, chablons, capsules. Formes et longueurs adaptées à vos envies.</p></article>
+    <article><div class="icon">◇</div><h3>Renforcement</h3><p>Gainage et rubber base pour sublimer et renforcer vos ongles naturels.</p></article>
+    <article><div class="icon">✦</div><h3>Nail art</h3><p>Du minimaliste à l'extravagant : laissez parler votre style.</p></article>
+    <article><div class="icon">↻</div><h3>Remplissage</h3><p>Entretien et repousse pour garder des ongles toujours impeccables.</p></article>
+    <article><div class="icon">⌁</div><h3>Dépose</h3><p>Une dépose douce et soignée, dans le respect de l'ongle naturel.</p></article>
+  </div>
+</section>
+
+<section id="tarifs" class="section dark">
+  <div class="section-head"><p class="eyebrow">TARIFS</p><h2>Des prestations simples & transparentes</h2></div>
+  <div class="price-grid">
+    <div class="price-card"><h3>Pose chablons</h3><div class="price"><span>S</span><b>40 €</b></div><div class="price"><span>M</span><b>45 €</b></div><div class="price"><span>L</span><b>50 €</b></div></div>
+    <div class="price-card"><h3>Pose semi-permanent</h3><div class="single">35 €</div></div>
+    <div class="price-card"><h3>Pédicure</h3><div class="single">35 €</div></div>
+    <div class="price-card"><h3>Nail art</h3><div class="single">1 € <small>par doigt</small></div></div>
+  </div>
+  <p class="note">Pour les autres prestations (renforcement, remplissage, dépose), contactez-moi pour connaître le tarif et la durée selon votre besoin.</p>
+</section>
+
+<section id="offres" class="section offers">
+  <div class="offer"><div class="offer-icon">♡</div><h2>Mains + pieds</h2><p>Décorations <strong>offertes</strong></p></div>
+  <div class="offer"><div class="offer-icon">🎓</div><h2>Étudiants</h2><p><strong>−5 €</strong> sur présentation de la carte étudiante ou d'une pièce d'identité.</p></div>
+</section>
+
+<section id="rendezvous" class="section booking">
+  <div class="booking-copy">
+    <p class="eyebrow">RENDEZ-VOUS</p>
+    <h2>Réservez votre moment beauté</h2>
+    <p>Du lundi au dimanche, de 10h à 19h. Je me déplace à domicile sur Mèze et alentours.</p>
+    <div class="contact-line"><span>☎</span><a href="tel:+33784600252">07 84 60 02 52</a></div>
+    <div class="contact-line"><span>⌖</span>Mèze</div>
+    <div class="contact-line"><span>◷</span>Lundi → Dimanche · 10h → 19h</div>
+  </div>
+  <form id="bookingForm">
+    <label>Prénom<input name="prenom" required placeholder="Votre prénom"></label>
+    <label>Téléphone<input name="telephone" type="tel" required placeholder="06 00 00 00 00"></label>
+    <label>Prestation<select name="prestation" required>
+      <option value="">Choisir une prestation</option>
+      <option>Pose chablons S — 40 €</option>
+      <option>Pose chablons M — 45 €</option>
+      <option>Pose chablons L — 50 €</option>
+      <option>Pose semi-permanent — 35 €</option>
+      <option>Pédicure — 35 €</option>
+      <option>Nail art — 1 € / doigt</option>
+      <option>Renforcement</option>
+      <option>Remplissage</option>
+      <option>Dépose</option>
+    </select></label>
+    <div class="two"><label>Date souhaitée<input name="date" type="date" required></label><label>Heure souhaitée<input name="heure" type="time" min="10:00" max="19:00" required></label></div>
+    <label>Adresse (pour le déplacement)<input name="adresse" placeholder="Adresse ou quartier"></label>
+    <label>Message <span class="optional">facultatif</span><textarea name="message" rows="3" placeholder="Longueur, couleur, inspiration…"></textarea></label>
+    <button class="btn primary full" type="submit">Envoyer ma demande</button>
+    <p class="form-help">Le formulaire prépare un message de demande de rendez-vous. La réservation est confirmée après échange.</p>
+  </form>
+</section>
+</main>
+
+<footer>
+  <div><strong>L'ART au bout de vos ONGLES</strong><br><span>Prothésiste ongulaire · Mèze</span></div>
+  <a href="tel:+33784600252">07 84 60 02 52</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
