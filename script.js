@@ -79,7 +79,8 @@ async function loadSlots() {
       option.textContent = slot.start_time.slice(0, 5);
       timeSelect.appendChild(option);
     });
-}
+}serviceSelect.addEventListener('change', loadSlots);
+dateInput.addEventListener('change', loadSlots);
 async function createBooking(data) {
   const response = await fetch(
     `${SUPABASE_URL}/rest/v1/rpc/create_booking`,
